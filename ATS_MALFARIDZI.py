@@ -10,7 +10,7 @@ from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
-DATASET_SIZE = 5000
+DATASET_SIZE = 13000
 
 print("Loading dataset...")
 df = pd.read_csv('emnist-letters-train.csv', header=None)
@@ -77,3 +77,4 @@ plt.close()
 
 print("\nFile saved: confusion_matrix.png")
 print("Done!")
+
